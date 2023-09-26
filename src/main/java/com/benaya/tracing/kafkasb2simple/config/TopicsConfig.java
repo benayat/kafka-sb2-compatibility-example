@@ -11,7 +11,6 @@ public class TopicsConfig {
     public NewTopic sb2InputTopic() {
         return TopicBuilder
                 .name("sb2InputTopic")
-                .compact()
                 .build();
     }
     @Bean
